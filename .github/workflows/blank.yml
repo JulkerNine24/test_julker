@@ -1,0 +1,8 @@
+name: github action
+
+on: [push]
+
+jobs:
+  runs-on: ubuntu 20.04
+  steps:
+    -run: echo""Hello world !"
